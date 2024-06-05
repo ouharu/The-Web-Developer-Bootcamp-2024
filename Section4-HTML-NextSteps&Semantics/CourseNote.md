@@ -4,110 +4,47 @@
 
 # 33. What actually HTML5 is
 
-HTML is a language or syntax that we use to mark up documents, webpages.
+HTML5 is the latest version of HTML that introduces new semantic elements, multimedia support, graphics, offline storage, and other features to enhance web development and user experience.
 
-To write HTML, we pick from a set of standard elements that all browsers recognize
+# 34. Block vs. Inline Elements - Divs and Spans
 
-- \<p>element - represents a paragraph of text
-- \<h1>element - represents the main header on a page
-- \<img> element - embeds an image
-- \<form> element - represents a from
+block level: The `<div>` element is a generic container used to group other elements and apply styles, creating layout structures and sections within a webpage.
 
-We create elements by writing tags. most tags consist of an opening and closing tag.
+inline level: The `<span>` element is an inline container used to group and apply styles to a portion of inline content within a larger block.
 
-# 21. Our Very First HTML Page
+# 35.An Odd Assortment of Elements: HR, BR, Sup, & Sub 
 
-Create a `chinken.html` in vscode.
+\<hr> horizonal break
+\<br> line break
+\<sub> subscript mark
+\<sup> superscript mark
 
-# 22. TIP: Mozilla Developer Network
+# 36. Entity Codes
 
-useful resources:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element
-https://developer.mozilla.org/en-US/
+They start with an ampersand (&) and end with a semicolon (;).
+Entities are used to display reserved, special, or difficult-to-type characters in HTML.
+https://entitycode.com/#common-content
 
+# 37. Intro to Semantic Markup
 
+meaningful markup, it improves accessibility, maintainability.
+Here are some common examples of semantic markup: 
 
-# 23.Paragraph Elements
+1. `<header>`: Represents the introductory content or a container for navigational links at the top of a page or section. 2. `<nav>`: Represents a section of a page that contains navigation links. 3. `<main>`: Represents the main content of a webpage. 4. `<article>`: Represents a self-contained composition, such as a blog post or news article. 5. `<section>`: Represents a standalone section of a document or a thematic grouping of content. 6. `<aside>`: Represents content that is tangentially related to the main content, such as a sidebar. 7. `<footer>`: Represents the footer content of a page or section. 8. `<h1>` to `<h6>`: Represents different levels of headings. 9. `<p>`: Represents a paragraph. 10. `<ul>` and `<ol>`: Represents an unordered list and an ordered list, respectively. 
 
-\<p>\</p>
+# 38. Playing With Semantic Elements
 
-
-
-# 24.Heading Elements
-
-```html
-<h1>1Beetles</h1>
-<h2>2External morp</h2>
-<h3>3Head</h3>
-<h4>4Mouthparts</h4>
-<h3>3Thorax</h3>
-<h4>4Prothorax</h4>
-<h4>4Pterothorax</h4>
-<h5>5Pter rax</h5>
-<h6>6Pte </h6>
-```
+use more specific elements instead of \<div>:
+![image-20240606010829299](image-20240606010829299.png)
 
 
 
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#try_it
+# 39. Screen Reader Demonstration
 
-# 25. Introduction to the Chrome Inspector
+-
 
-chrome inspector shortcut: F12 / ctrl+shift+I
-select an element in the page to inspect: ctrl+shift+c 
+# 40. VSCode Tip: Emmet.
 
-# 26. HTML Boilerplate
+https://docs.emmet.io/cheat-sheet/
 
-html skeleton:
 
-```htm
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-
-</body>
-</html>
-
-```
-
-1. `<!DOCTYPE html>`: 声明文档类型，告诉浏览器使用 HTML5 标准进行解析。
-2. `<html lang="en">`: 开始 HTML 文档，并指定文档的语言（此处为英语）。
-3. \<head>: 包含元数据（meta-information），如文档的字符集、标题、样式表链接等。
-   - `<meta charset="UTF-8">`: 指定字符编码为 UTF-8，这是一种通用的字符编码，可以表示几乎所有的字符。
-   - `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: 设置视口（viewport）的元数据，以确保页面在不同设备上的良好显示。
-   - `<title>Document</title>`: 指定网页的标题，这将显示在浏览器标签上。
-4. `<body>`: 包含网页的内容，是用户在浏览器中看到的部分。
-
-这是一个最小的 HTML 文件结构，它可以根据具体需求进行扩展和修改。例如，可以在 `<head>` 中添加链接到 CSS 样式表，或在 `<body>` 中添加各种 HTML 元素，如标题、段落、图像、链接等。
-
-`!+Tab` in vscode will create a html template.
-
-# 27.Autofitting in Vscode
-
-setting->format->save on formatting
-
-command+shift+p -> formate document
-
-# 28.List Elements
-
-\<ul> unordered list
-\<ol> order list 
-\<li> list item
-
-# 29.AnchorTags
-
-\<a> url
-\<a href="about.html">ABOUT PAGE</a>
-
-# 30.Images
-
-\<img src="x.jpg" alt="">
-
-# 31.Comments
-
-<!--    -->
