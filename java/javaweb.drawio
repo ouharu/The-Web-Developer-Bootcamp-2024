@@ -1,0 +1,157 @@
+<mxfile host="app.diagrams.net" modified="2024-06-17T10:17:23.695Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="hQRZtY5_sgv3DbL7tcSV" version="24.5.4" type="device">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="1221" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-2" value="输入数据&lt;br&gt;显示数据" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="290" width="160" height="133.75" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="290" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-4" value="存储数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="275" width="90" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-13" value="UI界面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-14" value="Java程序" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="250" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-15" value="程序1 调用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="296.88" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-16" value="程序2 调用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="356.88" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-19" value="数据库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="665" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-21" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="326.88" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="i6ehvR-dPRt6PtYbvfzf-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="406.88" as="sourcePoint" />
+            <mxPoint x="190" y="356.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i6ehvR-dPRt6PtYbvfzf-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="286" y="376.875" as="sourcePoint" />
+            <mxPoint x="390" y="356.88" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1.016;exitY=0.574;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.011;entryY=0.56;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i6ehvR-dPRt6PtYbvfzf-3" target="i6ehvR-dPRt6PtYbvfzf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="430" as="sourcePoint" />
+            <mxPoint x="650" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-30" value="用户" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="250" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-31" value="1.Java se" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="400" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-32" value="2.MySQL数据库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="635" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i6ehvR-dPRt6PtYbvfzf-33" target="i6ehvR-dPRt6PtYbvfzf-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i6ehvR-dPRt6PtYbvfzf-33" target="i6ehvR-dPRt6PtYbvfzf-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-33" value="3.数据库编程&lt;br&gt;JDBC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="515" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-36" value="4.网页设计&lt;br&gt;前端" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="210" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-37" value="5.页面程序交互&lt;br&gt;服务器，HTTP协议&lt;br&gt;Servlet，JSP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.442;entryY=0.978;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i6ehvR-dPRt6PtYbvfzf-37" target="i6ehvR-dPRt6PtYbvfzf-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i6ehvR-dPRt6PtYbvfzf-37" target="i6ehvR-dPRt6PtYbvfzf-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-40" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" target="i6ehvR-dPRt6PtYbvfzf-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425.0019408502772" y="326.88" as="sourcePoint" />
+            <mxPoint x="300.11999999999995" y="496.68000000000006" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="387.8" y="470" />
+              <mxPoint x="337.8" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-41" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="i6ehvR-dPRt6PtYbvfzf-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="632.2019408502772" y="326.88" as="sourcePoint" />
+            <mxPoint x="567.2" y="525" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="595" y="470" />
+              <mxPoint x="545" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-43" value="&lt;b style=&quot;text-wrap: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;Java Web项目结构&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="10" y="50" width="810" height="560" as="geometry">
+            <mxRectangle x="10" y="50" width="220" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-9" value="&lt;span&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;程序1 页面程序交互&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;程序2 数据库编程&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=0" vertex="1" parent="i6ehvR-dPRt6PtYbvfzf-43">
+          <mxGeometry x="40" y="100" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-45" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;direction=south;" vertex="1" parent="i6ehvR-dPRt6PtYbvfzf-43">
+          <mxGeometry x="560" y="540" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-42" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Java Web项目实战：&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 管理系统练手&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 缺点：代码繁琐，开发效率低&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="i6ehvR-dPRt6PtYbvfzf-43">
+          <mxGeometry x="540" y="30" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-47" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="350" y="590" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-52" value="企业级开发框架SSM" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="640" width="950" height="300" as="geometry">
+            <mxRectangle x="10" y="640" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-46" value="8.&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;S&lt;/font&gt;&lt;/b&gt;pringMVC&lt;br&gt;- 取代Servlet&lt;br&gt;- Spring的&lt;span style=&quot;background-color: initial;&quot;&gt;Web组件&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#6c8ebf;" vertex="1" parent="i6ehvR-dPRt6PtYbvfzf-52">
+          <mxGeometry x="290" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-44" value="6.&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;M&lt;/font&gt;&lt;/b&gt;yBatis&lt;br&gt;ORM（Object Relation Map）框架，功能覆盖JDBC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C4BB8E;strokeColor=#d6b656;" vertex="1" parent="i6ehvR-dPRt6PtYbvfzf-52">
+          <mxGeometry x="510" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-54" value="Maven&lt;br&gt;项目构建工具" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="i6ehvR-dPRt6PtYbvfzf-52">
+          <mxGeometry x="100" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-55" value="Git&lt;br&gt;版本控制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="i6ehvR-dPRt6PtYbvfzf-52">
+          <mxGeometry x="100" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-56" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Java SSM项目实战：&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- ？&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="i6ehvR-dPRt6PtYbvfzf-52">
+          <mxGeometry x="715" y="40" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="i6ehvR-dPRt6PtYbvfzf-48" target="i6ehvR-dPRt6PtYbvfzf-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="i6ehvR-dPRt6PtYbvfzf-48" target="i6ehvR-dPRt6PtYbvfzf-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-48" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;7.&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;S&lt;/font&gt;&lt;/b&gt;pring&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;IoC：Inverse of Control&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AOP：Aspect Oriented Programming&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5A77A1;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="810" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6ehvR-dPRt6PtYbvfzf-50" value="整合使用：Ioc作用于MyBatis工具类；&lt;br&gt;AOP作用于事务管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="785" width="230" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
