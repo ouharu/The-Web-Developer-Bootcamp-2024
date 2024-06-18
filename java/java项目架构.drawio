@@ -1,13 +1,13 @@
-<mxfile host="Electron" modified="2024-06-17T17:05:05.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="s5uWebjVrvBbQQRi2Yb7" version="24.5.3" type="device">
+<mxfile host="Electron" modified="2024-06-18T09:44:01.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="eWFQtrxEviGxM6l560tY" version="24.5.3" type="device">
   <diagram name="ページ1" id="6nY2u3zoYZXHYfO-mSeq">
-    <mxGraphModel dx="2035" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1744" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SGV3YlFetfNAjgBZ7x9T-1" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;项目架构（组织形式）演进&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry y="20" width="300" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SGV3YlFetfNAjgBZ7x9T-2" value="单体项目：前端后端部署在一个服务器    " style="swimlane;fontSize=23;" parent="1" vertex="1">
+        <mxCell id="SGV3YlFetfNAjgBZ7x9T-2" value="单体架构：前端后端部署在一个服务器    " style="swimlane;fontSize=23;" parent="1" vertex="1">
           <mxGeometry x="10" y="70" width="1130" height="480" as="geometry">
             <mxRectangle x="10" y="70" width="460" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -57,7 +57,7 @@
         <mxCell id="SGV3YlFetfNAjgBZ7x9T-16" value="response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="335" y="358" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SGV3YlFetfNAjgBZ7x9T-18" value="集群项目：将同样的项目部署到多个服务器" style="swimlane;fontSize=23;" parent="1" vertex="1">
+        <mxCell id="SGV3YlFetfNAjgBZ7x9T-18" value="集群架构：将同样的项目部署到多个服务器" style="swimlane;fontSize=23;" parent="1" vertex="1">
           <mxGeometry x="10" y="610" width="1130" height="760" as="geometry">
             <mxRectangle x="10" y="70" width="460" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -145,76 +145,266 @@
         <mxCell id="SGV3YlFetfNAjgBZ7x9T-65" value="CSS&lt;br&gt;JS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="650" y="1190" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-1" value="前后端分离项目：同个项目的前端网页部分和后端程序部分进行分离" style="swimlane;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="10" y="1420" width="1340" height="900" as="geometry">
-            <mxRectangle x="10" y="70" width="460" height="40" as="alternateBounds" />
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-1" value="前后端分离架构：同个项目的前端网页部分和后端程序部分进行分离" style="swimlane;fontSize=23;" parent="1" vertex="1">
+          <mxGeometry x="10" y="1420" width="1340" height="790" as="geometry">
+            <mxRectangle x="10" y="1420" width="460" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
-          <mxGeometry x="480" y="75" width="370" height="330" as="geometry" />
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="woQ7pGD8xBMQM1yghFzs-1" source="woQ7pGD8xBMQM1yghFzs-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-3" value="Tomcat服务器：承载请求的能力有限，200-300个并发访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
-          <mxGeometry x="500" y="80" width="330" height="30" as="geometry" />
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-64" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="woQ7pGD8xBMQM1yghFzs-1" source="woQ7pGD8xBMQM1yghFzs-9" target="rtJsJGv3l9U9-TtnaLn7-63">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
-          <mxGeometry x="500" y="130" width="330" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-5" value="Web项目" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
-          <mxGeometry x="760" y="130" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-6" value="程序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
-          <mxGeometry x="550" y="180" width="190" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-9" value="浏览器" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-9" value="浏览器" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="woQ7pGD8xBMQM1yghFzs-1" vertex="1">
           <mxGeometry x="100" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-11" value="特征：请求中20%程序80%网页前端，后端可单独进行集群部署&lt;br&gt;优点：后端服务器Tomcatr只需处理java程序请求，静态资源服务器并发能力强处理前端请求&lt;br&gt;缺点：技术成本高，ssm不能满足前后端分离的需要" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
-          <mxGeometry x="830" y="30" width="510" height="60" as="geometry" />
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-11" value="特征：请求中20%程序80%网页前端，后端可单独进行集群部署&lt;br&gt;优点：后端服务器Tomcat只需处理java程序请求，静态资源服务器并发能力强处理前端请求&lt;br&gt;缺点：技术成本高，ssm不能满足前后端分离的需要" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="woQ7pGD8xBMQM1yghFzs-1" vertex="1">
+          <mxGeometry x="830" y="30" width="500" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-13" value="request:&lt;br&gt;80% 网页图片js&lt;br&gt;20%程序" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
-          <mxGeometry x="310" y="160" width="110" height="60" as="geometry" />
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-13" value="request:&lt;br&gt;80% 网页图片js&lt;br&gt;20%程序" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="woQ7pGD8xBMQM1yghFzs-1" vertex="1">
+          <mxGeometry x="180" y="340" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="woQ7pGD8xBMQM1yghFzs-1" vertex="1">
           <mxGeometry x="480" y="450" width="370" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-16" value="Nginx静态资源服务器：承载请求5w+个并发访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-16" value="Nginx静态资源服务器：承载请求5w+个并发访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="woQ7pGD8xBMQM1yghFzs-1" vertex="1">
           <mxGeometry x="525" y="455" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="woQ7pGD8xBMQM1yghFzs-1" vertex="1">
           <mxGeometry x="500" y="505" width="330" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-18" value="Web项目" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-18" value="Web项目" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="woQ7pGD8xBMQM1yghFzs-1" vertex="1">
           <mxGeometry x="760" y="505" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-20" value="网页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-20" value="网页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="woQ7pGD8xBMQM1yghFzs-1" vertex="1">
           <mxGeometry x="550" y="625" width="70" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-21" value="CSS&lt;br&gt;JS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-21" value="CSS&lt;br&gt;JS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="woQ7pGD8xBMQM1yghFzs-1" vertex="1">
           <mxGeometry x="650" y="625" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="woQ7pGD8xBMQM1yghFzs-1" source="woQ7pGD8xBMQM1yghFzs-9">
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="woQ7pGD8xBMQM1yghFzs-1" source="woQ7pGD8xBMQM1yghFzs-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="551.3399999999999" as="sourcePoint" />
             <mxPoint x="530" y="655.3400000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-23" value="后端掌握：&lt;br&gt;SpringBoot 整合SSM&lt;br&gt;RESTful URL设计规范&lt;br&gt;Swagger2 接口文档工具" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-23" value="后端掌握：&lt;br&gt;SpringBoot 整合SSM&lt;br&gt;RESTful URL设计规范&lt;br&gt;Swagger2 接口文档工具" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="woQ7pGD8xBMQM1yghFzs-1" vertex="1">
           <mxGeometry x="1000" y="180" width="205" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-24" value="前端掌握：&lt;br&gt;vue React前端数据渲染&amp;nbsp;&lt;br&gt;axios 前后端异步通信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-24" value="前端掌握：&lt;br&gt;vue React前端数据渲染&amp;nbsp;&lt;br&gt;axios 前后端异步通信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="woQ7pGD8xBMQM1yghFzs-1" vertex="1">
           <mxGeometry x="1000" y="570" width="205" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-25" value="前端项目部署： Nginx&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-25" value="前端项目部署： Nginx&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="woQ7pGD8xBMQM1yghFzs-1" vertex="1">
           <mxGeometry x="1000" y="690" width="205" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-26" value="后端项目部署：&lt;br&gt;Linux" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-26" value="后端项目部署：&lt;br&gt;Linux" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="woQ7pGD8xBMQM1yghFzs-1" vertex="1">
           <mxGeometry x="1000" y="291" width="205" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="woQ7pGD8xBMQM1yghFzs-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="1610" as="sourcePoint" />
-            <mxPoint x="560" y="1713.6619718309862" as="targetPoint" />
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-55" value="" style="group" vertex="1" connectable="0" parent="woQ7pGD8xBMQM1yghFzs-1">
+          <mxGeometry x="480" y="75" width="360" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="rtJsJGv3l9U9-TtnaLn7-55" vertex="1">
+          <mxGeometry width="360" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-3" value="Tomcat服务器：承载请求的能力有限，200-300个并发访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="rtJsJGv3l9U9-TtnaLn7-55" vertex="1">
+          <mxGeometry x="20" y="5" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="rtJsJGv3l9U9-TtnaLn7-55" vertex="1">
+          <mxGeometry x="20" y="55" width="330" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-5" value="Web项目" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="rtJsJGv3l9U9-TtnaLn7-55" vertex="1">
+          <mxGeometry x="280" y="55" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="woQ7pGD8xBMQM1yghFzs-6" value="程序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="rtJsJGv3l9U9-TtnaLn7-55" vertex="1">
+          <mxGeometry x="70" y="105" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-56" value="" style="group" vertex="1" connectable="0" parent="woQ7pGD8xBMQM1yghFzs-1">
+          <mxGeometry x="485" y="265" width="360" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-57" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-56">
+          <mxGeometry width="360" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-58" value="Tomcat服务器：承载请求的能力有限，200-300个并发访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-56">
+          <mxGeometry x="20" y="5" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-59" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-56">
+          <mxGeometry x="20" y="55" width="330" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-60" value="Web项目" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-56">
+          <mxGeometry x="280" y="55" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-61" value="程序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-56">
+          <mxGeometry x="70" y="105" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-65" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="woQ7pGD8xBMQM1yghFzs-1" source="rtJsJGv3l9U9-TtnaLn7-63" target="woQ7pGD8xBMQM1yghFzs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-66" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="woQ7pGD8xBMQM1yghFzs-1" source="rtJsJGv3l9U9-TtnaLn7-63" target="rtJsJGv3l9U9-TtnaLn7-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-63" value="192.168.54.33&lt;br&gt;负载均衡服务器&lt;br&gt;Nginx&lt;div&gt;（控制转发）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="woQ7pGD8xBMQM1yghFzs-1">
+          <mxGeometry x="324" y="50" width="120" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-1" value="微服务架构：后端项目中的多个功能模块拆分为多个项目单独开发" style="swimlane;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2220" width="1555" height="1150" as="geometry">
+            <mxRectangle x="20" y="2230" width="460" height="40" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-54" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="rtJsJGv3l9U9-TtnaLn7-1" source="rtJsJGv3l9U9-TtnaLn7-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-36" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="530" y="290" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-50" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="rtJsJGv3l9U9-TtnaLn7-1" source="rtJsJGv3l9U9-TtnaLn7-7" target="rtJsJGv3l9U9-TtnaLn7-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-7" value="浏览器" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="100" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-8" value="特征：后端功能扩展会让项目复杂化，增加维护成本，拆分功能模块，服务功能单独部署（分布式系统）&lt;br&gt;优点：&lt;br&gt;缺点：" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="865" y="36.36" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-9" value="request:&lt;br&gt;80% 网页图片js&lt;br&gt;20%程序" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="340" y="298.86" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="480" y="450" width="370" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-11" value="Nginx静态资源服务器：承载请求5w+个并发访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="525" y="455" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="500" y="505" width="330" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-13" value="Web项目" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="760" y="505" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-14" value="网页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="550" y="625" width="70" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-15" value="CSS&lt;br&gt;JS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="650" y="625" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="rtJsJGv3l9U9-TtnaLn7-1" source="rtJsJGv3l9U9-TtnaLn7-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="551.3399999999999" as="sourcePoint" />
+            <mxPoint x="530" y="655.3400000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-17" value="后端掌握：&lt;br&gt;SpringBoot 整合SSM&lt;br&gt;RESTful URL设计规范&lt;br&gt;Swagger2 接口文档工具" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="1260" y="572.5" width="205" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-18" value="前端掌握：&lt;br&gt;vue React前端数据渲染&amp;nbsp;&lt;br&gt;axios 前后端异步通信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="1000" y="570" width="205" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-19" value="前端项目部署： Nginx&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="1000" y="690" width="205" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-20" value="后端项目部署：&lt;br&gt;Linux" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="1270" y="695" width="205" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-32" value="后端Java程序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="554.3243243243244" y="328.8636363636364" width="211.35135135135135" height="84.09090909090908" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-35" value="接口功能3" style="whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="646.2162162162163" y="390.530303030303" width="82.7027027027027" height="15.416666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-37" value="Tomcat服务器3：承载请求的能力有限，200-300个并发访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="524.9983783783783" y="298.8630303030304" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-53" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="rtJsJGv3l9U9-TtnaLn7-1" source="rtJsJGv3l9U9-TtnaLn7-38" target="rtJsJGv3l9U9-TtnaLn7-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-75" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="rtJsJGv3l9U9-TtnaLn7-1" source="rtJsJGv3l9U9-TtnaLn7-38" target="rtJsJGv3l9U9-TtnaLn7-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-38" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="520" y="157.5" width="332.57" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-39" value="后端Java程序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="546.8943243243244" y="196.3636363636365" width="211.35135135135135" height="84.09090909090908" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-41" value="接口功能2" style="whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="638.7862162162163" y="227.89772727272702" width="82.7027027027027" height="15.416666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-43" value="Tomcat服务器2：承载请求的能力有限，200-300个并发访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="517.5683783783784" y="166.36303030303043" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-52" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="rtJsJGv3l9U9-TtnaLn7-1" source="rtJsJGv3l9U9-TtnaLn7-44" target="rtJsJGv3l9U9-TtnaLn7-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-77" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="rtJsJGv3l9U9-TtnaLn7-1" source="rtJsJGv3l9U9-TtnaLn7-80" target="rtJsJGv3l9U9-TtnaLn7-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-44" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="520" y="27.5" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-45" value="后端Java程序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="544.3243243243244" y="66.36363636363649" width="211.35135135135135" height="84.09090909090908" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-46" value="接口功能1" style="whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="636.2162162162163" y="73.37121212121201" width="82.7027027027027" height="15.416666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-49" value="Tomcat服务器1：承载请求的能力有限，200-300个并发访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="514.9983783783783" y="36.36303030303043" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-51" value="网关路由" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="340" y="106" width="90" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-69" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="870" y="290" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-70" value="后端Java程序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="894.3243243243244" y="328.8636363636365" width="211.35135135135135" height="84.09090909090908" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-71" value="接口功能3" style="whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="986.2162162162163" y="390.530303030303" width="82.7027027027027" height="15.416666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-72" value="Tomcat服务器4：承载请求的能力有限，200-300个并发访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="864.9983783783783" y="298.8630303030304" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-73" value="功能3访问流量大时进行集群部署" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="910" y="250.44999999999982" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-74" value="Mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="1380" y="145.5" width="85" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-76" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.147;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="rtJsJGv3l9U9-TtnaLn7-1" source="rtJsJGv3l9U9-TtnaLn7-69" target="rtJsJGv3l9U9-TtnaLn7-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-78" value="微服务并发连接DB需求高" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="1320" y="298.8600000000001" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-79" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.236;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rtJsJGv3l9U9-TtnaLn7-1" source="rtJsJGv3l9U9-TtnaLn7-44" target="rtJsJGv3l9U9-TtnaLn7-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1470" y="2437" as="targetPoint" />
+            <mxPoint x="940" y="2342" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-80" value="Mycat" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="1190" y="156" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-81" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="rtJsJGv3l9U9-TtnaLn7-1" source="rtJsJGv3l9U9-TtnaLn7-80" target="rtJsJGv3l9U9-TtnaLn7-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-82" value="学习：&lt;br&gt;分布式数据库&lt;br&gt;分布式锁&lt;br&gt;分布式事务&lt;br&gt;微服务架构框架：SpringCloud&lt;br&gt;接口服务功能同步调用：SpringCloud&lt;div&gt;接口服务功能异步调用：消息队列MQ（RabbitMQ)&lt;br&gt;数据库中间件：radis ElasticSearch(数据库检索)&lt;br&gt;多服务器容器化部署：Docker&lt;/div&gt;&lt;div&gt;&lt;div&gt;CICD: 持续集成部署&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="rtJsJGv3l9U9-TtnaLn7-1">
+          <mxGeometry x="1175" y="780" width="380" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-67" value="集群：多个服务器部署相同项目&lt;br&gt;微服务：项目分为多个模块分别开发，部署" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="740" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rtJsJGv3l9U9-TtnaLn7-68" value="集群：多个服务器部署相同项目&lt;br&gt;微服务：项目分为多个模块分别开发，部署" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1565" y="2579.9999999999995" width="330" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
